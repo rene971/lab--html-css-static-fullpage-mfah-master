@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: black;
+  color: white;
+  width: 1850px;
+  height: 150px;
+  border: 3px solid white;
+  display: flex;
+}
+.bar2{
+ display: flex;
+ padding: 0;
+}
+.item1{
+  background-color: beige;
+  width: 8%;
+}
+.item2{
+  background-color: beige;
+  width: 8%;
+  padding-left: 0;
+}
+.item3{
+  background-color: lightblue;
+  width: 24%;
+}
+.item{
+  position: absolute;
+  left: 0;
+}
+.menu{
+  position: absolute;
+  right: 0;
+  font-size: 50px;
+}
+.red{
+  color: red;
+  font-size: 50px;
+  position: absolute;
+  right: 30%;
+  top:0%;
+}
+ul{
+  color: black;
+  align-items: center;
+}
+.menu2{
+  font-family: cursive;
+
+}
+h2 {
+  color: red;
+  position: absolute;
+  left: 70px;
+  font-size: 300%;
+}
+.titulo{
+  font-size: 100%;
+  font-family: Helvetica;
+
+}
+.subtitulo{
+  font-size: 300%;
+  line-height: -10px;
+}
+.parrafo1{
+  font-size: 120%;
+  font-family: sans-serif;
+    display: flex;
+    width: 100%;
+}
+.parrafo2{
+  width: 65%;
+  font-size: 120%;
+}
+.tercerelement{
+  font-size: 300%;
+  position: absolute;
+  left: 120px;
+}
+.taiflex{
+  display: flex;
+  width: 115%;
+  font-size: 120%;
+}
+.last{
+  font-size: 180%;
+}
+.lastlist{
+  padding: 0;
+  list-style: none;
+}
+.lasttext{
+  display: flex;
+  width: 65%;
+  font-size: 120%;
+}
+.engloba{
+  width: 65%;
+}
+.parte2{
+  position: absolute;
+  right: 0;
+  top: 25%;
+  font-size: 30px;
+  padding-right: 50px;
+}
+.textrigth{
+  position: absolute;
+  right: 0px;
+  top: 35%;
+  display: flex;
+  font-size: 15px;
+}
+.text2rigth{
+  position: absolute;
+  right: 0px;
+  top: 45%;
+  display: flex;
+  font-size: 15px;
+}
+.text3rigth{
+  position: absolute;
+  right: 0px;
+  top: 55%;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+.textbox{
+  background-color: blue;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
